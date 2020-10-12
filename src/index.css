@@ -138,6 +138,7 @@ header {
 .table-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: #f5f6fa;
   padding: 20px;
   margin-top: 40px;
@@ -145,6 +146,9 @@ header {
   color: #929292;
   font-size: 12px;
   font-weight: bold;
+}
+.table-header > div{
+  width:20%;
 }
 .card-continer {
   margin-top: 20px;
@@ -160,7 +164,11 @@ header {
 .card-header {
   display: flex;
   justify-content: space-between;
-  padding: 11px 20px 12px;
+  align-items: center;
+  padding: 12px 20px 12px;
+}
+.card-header > div{
+  width:20%;
 }
 .staging,
 .addOn {
@@ -190,12 +198,17 @@ header {
 }
 .sub-domain-container {
   background-color: #f5f6fa;
-  height: 200px;
+  padding-bottom: 50px;
+  border-radius: 0px 0px 6px 6px;
 }
 .sub-domain-details {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 6px 20px 6px;
+}
+.sub-domain-details > div{
+  width:20%;
 }
 .active-status,
 .inactive {

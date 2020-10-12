@@ -87,10 +87,10 @@ export default function HomeSection() {
         </div>
       </div>
       <div className="table-header">
-        <p>Domain Plan Name</p>
+        <div>Domain Plan Name</div>
         <div
           onClick={toggleSortStorag}
-          style={{ display: "flex", alignItems: "baseline" }}
+          style={{ display: "flex", alignItems: "baseline", cursor:"pointer"}}
         >
           <span>Storage</span>
           <FontAwesomeIcon
@@ -98,9 +98,9 @@ export default function HomeSection() {
             style={{ marginLeft: "2px", fontSize: "16px" }}
           />
         </div>
-        <p>Monthly Vistor</p>
-        <p>Domains</p>
-        <p>Status</p>
+        <div>Monthly Vistor</div>
+        <div>Domains</div>
+        <div>Status</div>
       </div>
       <DomainDetails posts={filteredData} />
       {showModal ? (

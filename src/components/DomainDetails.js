@@ -51,12 +51,14 @@ export default function DomainDetails({ posts }) {
                     </p>
                   </div>
                 </div>
-                <div
-                  className={
-                    item.status === "Active" ? "active-status" : "inactive"
-                  }
-                >
-                  <div>{item.status ? item.status : "Inactive"}</div>
+                <div>
+                  <div
+                    className={
+                      item.status === "Active" ? "active-status" : "inactive"
+                    }
+                  >
+                    {item.status ? item.status : "Inactive"}
+                  </div>
                 </div>
               </div>
               <div
@@ -75,7 +77,7 @@ export default function DomainDetails({ posts }) {
                           {" "}
                           <p>{subdomain.name}</p>
                         </div>
-                        <div className="column flex-center">
+                        <div style={{display:"flex"}}>
                           <span>
                             {subdomain.usedStorage
                               ? subdomain.usedStorage
@@ -89,7 +91,7 @@ export default function DomainDetails({ posts }) {
                             }
                           ></span>
                         </div>
-                        <div className="column flex-end">
+                        <div style={{display:"flex"}}>
                           <span>
                             {subdomain.montlyVisitor
                               ? subdomain.montlyVisitor
@@ -103,7 +105,7 @@ export default function DomainDetails({ posts }) {
                             }
                           ></span>
                         </div>
-                        <div className="column flex-end">
+                        <div>
                           {" "}
                           <div
                             className={
@@ -117,7 +119,7 @@ export default function DomainDetails({ posts }) {
                               : "Staging"}
                           </div>
                         </div>
-                        <div className="column flex-end">
+                        <div>
                           {" "}
                           <div
                             className={
