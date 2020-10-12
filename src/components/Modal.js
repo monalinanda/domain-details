@@ -22,10 +22,13 @@ export default function Modal({ fetchUser, posts }) {
   const addForm = () => {
     setSubDomain([...subDomain, { name: null }]);
   };
-
+  
   //form submit
   const handleSubmit = (e) => {
     e.preventDefault();
+     if(!domain || !usedStorage || !montlyVisitor){
+       return ;
+     }
     axios
       .post("http://localhost:5000/mainlists", {
         domain: domain,
