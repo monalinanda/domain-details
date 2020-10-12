@@ -1,0 +1,73 @@
+{
+  "mainlists": [
+    {
+      "id": 1,
+      "domain": "paperpilla.com",
+      "storage": "100gb",
+      "usedStorage": "30",
+      "domainTag": "Primary",
+      "availableDomains": 10,
+      "usedDomains": 4,
+      "status": "Active",
+      "monthlyVisitorCapacity": 10000,
+      "montlyVisitor": 100,
+      "subdomain": [
+        {
+          "id": 11,
+          "name": "paperpilla.com",
+          "usedStorage": "10",
+          "domainTag": "Staging",
+          "status": "Active",
+          "montlyVisitor": 700
+        },
+        {
+          "id": 12,
+          "name": "supply.paperpilla.com",
+          "usedStorage": "40",
+          "domainTag": "Add On",
+          "status": "Active",
+          "montlyVisitor": 1100
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "domain": "samanthawillam.com",
+      "storage": "100gb",
+      "usedStorage": "50",
+      "domainTag": "Primary",
+      "subdomain": [],
+      "status": "Inactive",
+      "availableDomains": 10,
+      "usedDomains": 1,
+      "monthlyVisitorCapacity": 10000,
+      "montlyVisitor": 2000
+    },
+    {
+      "id": 3,
+      "domain": "xyz.com",
+      "storage": "100gb",
+      "usedStorage": "90",
+      "domainTag": "Primary",
+      "subdomain": [],
+      "status": "Active",
+      "availableDomains": 10,
+      "usedDomains": 1,
+      "monthlyVisitorCapacity": 10000,
+      "montlyVisitor": 2000
+    },
+    {
+      "id": 4,
+      "domain": "xyz.com",
+      "storage": "100gb",
+      "usedStorage": "10",
+      "domainTag": "Primary",
+      "subdomain": [],
+      "status": "Inactive",
+      "availableDomains": 10,
+      "usedDomains": 1,
+      "monthlyVisitorCapacity": 10000,
+      "montlyVisitor": 2000
+    }
+  ]
+}
